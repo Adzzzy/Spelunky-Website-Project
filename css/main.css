@@ -164,6 +164,12 @@ div.rule.divider-rule {
   margin-bottom: 40px;
 }
 
+.border-left {
+  
+  border-left: 1px solid rgba(0, 0, 0, .25);
+  float: right;
+}
+
 /* Interaction Elements */
 
 button[type=button].flat-button {
@@ -228,6 +234,10 @@ input[type=text].input-1 {
 input[type=text].input-1:focus {
   border-color: #ff8c00;
   box-shadow: none;
+}
+
+.tips {
+  padding-left: 100px;
 }
 
 /* Layout Elements */
@@ -624,4 +634,5 @@ a.responsive-picture.logo > picture {
   .row > [class*='coffee-span-'] .subgrid > .row > [class*='coffee-span-'].subgrid-column-4 {
     display: none;
   }
+
 }
